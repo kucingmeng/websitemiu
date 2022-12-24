@@ -1,0 +1,97 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: Montserrat;
+	background: #ededed;
+	color: #fff;
+	/*background: rgb(0,140,220);*/ /* For browsers that do not support gradients */
+	background: -webkit-radial-gradient(rgb(6,162,255) 10%, rgb(0,39,189)90%); /* Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(rgb(6,162,255) 10%, rgb(0,39,189)90%); /* For Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(rgb(6,162,255) 10%, rgb(0,39,189)90%); /* For Firefox 3.6 to 15 */
+	background: radial-gradient(rgb(6,162,255) 10%, rgb(0,39,189)90%); /* Standard syntax */
+
+}
+input[type='text'],input[type='email'],input[type='password']{
+	padding: 10px 20px;
+	border: 0px;
+	color:rgb(49,49,49);
+	background-color: rgba(0,0,0,0);
+	background-image: url(https://lh3.googleusercontent.com/-zUgv8BvFG-U/Voa7wJI2Y9I/AAAAAAAAB3c/lQ4kJOm9PCY/h69/input.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-size: 24px;
+	clear: both;
+	font-family: Montserrat;
+	margin-top:20px;
+}
+
+input[type='submit'], button{
+	padding: 10px 20px;
+	padding-bottom: 15px;
+	background-color: rgba(0,0,0,0);
+	border:0px;
+	background-image: url(https://lh3.googleusercontent.com/-F1ssKDtXh_M/Voa7vBf9nBI/AAAAAAAAB3U/h_GOXRL-kHA/h120/button-simple.png); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-size: 22px;
+	color: #fff;
+	font-family: Montserrat;
+}
+button:active{
+	padding: 10px 20px;
+	padding-bottom: 15px;
+	background-color: rgba(0,0,0,0);
+	border:0px;
+	background-image: url(https://lh3.googleusercontent.com/-x4vFHbWmr_Y/Voa7tsoCcCI/AAAAAAAAB3M/hwG9GaBeFhA/h120/button-clicked.png); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-size: 22px;
+	color: #fff;
+	font-family: Montserrat;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.center{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+.outer-wrap{
+	display: table;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.inner-wrap{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+
+}
+.content {
+    margin: auto !important;
+    width: 400px;
+    text-align: left;
+}
+@media(max-width: 400px){
+	.content{
+		width: 280px;
+	}
+	input{
+		width: 80%;
+	}
+}
+.logo{
+	max-height: 60px;
+}
+.center h1{
+	text-align: center;
+}
